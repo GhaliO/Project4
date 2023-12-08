@@ -1,0 +1,93 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+.caution-section,
+.warning-section {
+  background-color: #e74c3c; /* Red background color */
+  color: white; /* White text color */
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.caution-section p strong,
+.warning-section p strong {
+  color: white;
+}
+section {
+  background-color: #ecf0f1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#section-html-basics {
+  background-color: #ecf0f1; /* Adjusted background color for HTML Basics section */
+  color: black; /* Black text color */
+}
+
+#section-html-basics h2 {
+  font-size: 2em; /* Larger font size for section headings */
+}
+
+#section-html-basics p {
+  font-size: 1.2em; /* Slightly larger font size for paragraphs */
+}
+
+.example-code {
+  background-color: #3498db;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black; /* Set font color to black for code snippets */
+}
+
+.example-code h3 {
+  color: black; /* Blue color for example headings */
+}
+
+
+footer {
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
