@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building Your First Website - HTML Basics</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Building Your First Website</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="SettingUp.html" class="nav-link">Setting Up</a></li>
+      <li><a href="HTMLBasics.html" class="nav-link">HTML Basics</a></li>
+      <li><a href="CSSFundamentals.html" class="nav-link">CSS Fundamentals</a></li>
+      <li><a href="navigation.html" class="nav-link">Navigation and Links</a></li>
+      <li><a href="deploying.html" class="nav-link">Deploying Your Website</a></li>
+      <li><a href="citations.html" class="nav-link">Citations</a></li>
+
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Section: HTML Basics -->
+  <section id="section-html-basics">
+    <h2>Understanding Basic HTML Structure</h2>
+    <p>In this section, you will be shown some basic HTML structure examples. This page is for you to understand the basic sections and structure of HTML code. Don’t worry if there are tags you have never learned about yet!</p>
+
+    <p>HTML is the programming language for creating the structure of a web page. Here are the components that you need to know to understand how it works:</p>
+
+    <ul>
+      <li>All HTML documents have to start with the declaration: <code>&lt;!DOCTYPE html&gt;</code>. This simply represents the document type and allows browsers to identify and display your web pages.</li>
+      <li>The HTML document itself begins with <code>&lt;html&gt;</code> and ends with <code>&lt;/html&gt;</code>.</li>
+      <li>The part of the HTML document that will actually be shown on your page is between <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code>.</li>
+    </ul>
+
+    <div class="example-code">
+      <h3>Example:</h3>
+      <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+                </pre>
+    </div>
+
+    <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_document" target="_blank">Try it yourself</a></p>
+
+    <h3>Important concepts to understand:</h3>
+    <ul>
+      <li><strong>Tag structure:</strong> HTML uses a system of tags to define the structure of a document. Tags are enclosed in angle brackets, such as <code>&lt;tagname&gt;</code>.</li>
+      <li><strong>Elements:</strong> Tags can contain content and form HTML elements. Elements define the structure of a web page, such as headings (<code>&lt;h1&gt;</code>), paragraphs (<code>&lt;p&gt;</code>), and links (<code>&lt;a&gt;</code>). We will use these elements in the CSS code file later on to style the texts in between them!</li>
+      <li><strong>Attributes:</strong> Tags can have attributes that provide additional information about the element. Attributes are added to the opening tag (<code>&lt;tagname attribute="value"&gt;</code>).</li>
+      <li><strong>Document Structure:</strong> An HTML document typically consists of a <code>&lt;head&gt;</code> section (containing meta-information) and a <code>&lt;body&gt;</code> section (containing the content).</li>
+    </ul>
+
+    <h3>Common HTML Elements:</h3>
+
+    <p>Here are some common HTML elements:</p>
+
+    <ul>
+      <li><code>&lt;p&gt;</code>: Defines a paragraph.</li>
+      <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>: Define header tags for headings.</li>
+      <li><code>&lt;a&gt;</code>: Creates hyperlinks.</li>
+      <li><code>&lt;img&gt;</code>: Embeds images.</li>
+      <li><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code>: Create unordered and ordered lists.</li>
+      <li><code>&lt;div&gt;</code>: Defines a division or a section in an HTML document.</li>
+    </ul>
+
+    <div class="example-code">
+      <h3>Example Code:</h3>
+      <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;My First Web Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome to My First Web Page&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+    &lt;img src="example.jpg" alt="An example image"&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </pre>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2023 Project 4</p>
+</footer>
+
+<script src="scriptt.js"></script>
+</body>
+
+</html>

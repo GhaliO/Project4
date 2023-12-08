@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building Your First Website - Navigation and Links</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Building Your First Website</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="SettingUp.html" class="nav-link">Setting Up</a></li>
+      <li><a href="HTMLBasics.html" class="nav-link">HTML Basics</a></li>
+      <li><a href="CSSFundamentals.html" class="nav-link">CSS Fundamentals</a></li>
+      <li><a href="navigation.html" class="nav-link">Navigation and Links</a></li>
+      <li><a href="deploying.html" class="nav-link">Deploying Your Website</a></li>
+      <li><a href="citations.html" class="nav-link">Citations</a></li>
+
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Section: Navigation and Links -->
+  <section id="section-navigation-links">
+    <h2>Navigation and Links</h2>
+    <p>Navigation and links are integral components of web development, allowing users to explore and interact with content on your website.</p>
+
+    <p>When navigating this website, you've clicked on buttons that direct you to your desired web page. Understanding how to create effective navigation is crucial for seamless user experience.</p>
+
+    <h3>HTML Navigation</h3>
+    <p>In HTML, navigation is often achieved through the <code>&lt;a&gt;</code> tags, representing links to different pages. The <code>href</code> attribute specifies the target page's file name or an external URL.</p>
+
+    <div class="caution-section">
+      <p><strong>Caution:</strong> Not all links of a document should be inside a <code>&lt;nav&gt;</code> element. Links, such as those within the content of a page, may not necessarily be part of the main navigation and might not belong inside a <code>&lt;nav&gt;</code>.</p>
+    </div>
+
+    <h3>Example</h3>
+    <p>A set of navigation links:</p>
+    <div class="example-code">
+                <pre>
+&lt;nav&gt;
+  &lt;a href="/html/"&gt;HTML&lt;/a&gt; |
+  &lt;a href="/css/"&gt;CSS&lt;/a&gt; |
+  &lt;a href="/js/"&gt;JavaScript&lt;/a&gt; |
+  &lt;a href="/python/"&gt;Python&lt;/a&gt;
+&lt;/nav&gt;
+                </pre>
+    </div>
+
+    <p>Here is an example of this website's navigation:</p>
+    <div class="example-code">
+                <pre>
+&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="indexx.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="SettingUp.html"&gt;Setting Up&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="HTMLBasics.html"&gt;HTML Basics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="CSSFundamentals.html"&gt;CSS Fundamentals&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="formBasics.html"&gt;Form Basics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="navigation.html"&gt;Navigation and Links&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+                </pre>
+    </div>
+
+    <p>Try creating your navigation links using this example: <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_nav" target="_blank">Try it yourself</a></p>
+
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2023 Project 4</p>
+</footer>
+
+<script src="scriptt.js"></script>
+</body>
+
+</html>

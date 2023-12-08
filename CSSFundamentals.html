@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building Your First Website - CSS Fundamentals</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Building Your First Website</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="SettingUp.html" class="nav-link">Setting Up</a></li>
+      <li><a href="HTMLBasics.html" class="nav-link">HTML Basics</a></li>
+      <li><a href="CSSFundamentals.html" class="nav-link">CSS Fundamentals</a></li>
+      <li><a href="navigation.html" class="nav-link">Navigation and Links</a></li>
+      <li><a href="deploying.html" class="nav-link">Deploying Your Website</a></li>
+      <li><a href="citations.html" class="nav-link">Citations</a></li>
+
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Section: CSS Fundamentals -->
+  <section>
+    <h2>CSS Fundamentals</h2>
+    <p>In this section, you will learn about the fundamentals of CSS coding concepts. CSS is used for styling HTML documents and enhancing the visual presentation of web pages. CSS goes hand in hand with your HTML code, allowing you to control the layout of multiple web pages and the overall design of your document. If you want to change the color, font, or add a text box to your web pages, CSS allows you to do that.</p>
+
+    <h3>Why Use CSS?</h3>
+    <p>CSS is used to style and design your web page, including the layout. CSS also allows you to customize the screen sizes for different devices that will be viewing your web pages. For this website for example, I simply wrote my texts and structured them in HTML and designed my webpage using CSS in a separate file.  </p>
+
+    <h3>CSS Example</h3>
+    <div class="example-code">
+      <h4>Example:</h4>
+      <pre>
+/* CSS Style */
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+                </pre>
+    </div>
+
+    <p><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_intro" target="_blank">Try it yourself</a></p>
+
+    <h3>Selectors and Declarations</h3>
+    <p>CSS works by selecting HTML elements and applying style declarations to them. Here's a basic example:</p>
+
+    <div class="example-code">
+      <h4>Example:</h4>
+      <pre>
+/* CSS Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Selecting an HTML element */
+h1 {
+    color: #3498db;
+}
+                </pre>
+    </div>
+
+    <p>In the example above, the <code>body</code> element is selected, and styles such as <code>font-family</code>, <code>background-color</code>, and <code>color</code> are applied. Additionally, the <code>h1</code> element is selected with a specific color.</p>
+
+    <h3>Box Model</h3>
+    <p>The CSS box model describes the structure of every HTML element as a rectangular box with properties like margin, border, padding, and content.</p>
+
+    <div class="example-code">
+      <h4>Example:</h4>
+      <pre>
+/* CSS Box Model */
+.example-box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid #3498db;
+    padding: 10px;
+}
+                </pre>
+    </div>
+
+    <p>The example above creates a box with a width of 200 pixels, a height of 100 pixels, a margin of 20 pixels, a border of 2 pixels solid, and padding of 10 pixels.</p>
+
+    <!-- Add more CSS fundamentals content as needed -->
+
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2023 Project 4</p>
+</footer>
+
+<script src="scriptt.js"></script>
+</body>
+
+</html>
